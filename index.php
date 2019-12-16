@@ -14,7 +14,7 @@
         <label for="#inn">Укажите ИНН: </label>
         <input type="text" id="inn" name="inn" value="<?= isset($_POST['inn']) ? $_POST['inn'] : ''?>"/>
 
-        <input type="submit" value="Проветить"/>
+        <input type="submit" value="Проверить"/>
     </form>
 
     <?php 
