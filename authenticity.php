@@ -73,8 +73,6 @@ class Authenticity {
         curl_setopt($curl_request, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($curl_request, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/535.6 (KHTML, like Gecko) Chrome/16.0.897.0 Safari/535.6');
 
-        curl_setopt($curl_request, CURLOPT_VERBOSE, 1);
-
         $curl_result = curl_exec($curl_request);
 
         $done = FALSE;
